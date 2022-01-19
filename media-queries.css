@@ -1,3 +1,6 @@
+:root{
+    --my-margin: 30px;
+}
 @media screen and (min-width: 576px) {
 
 
@@ -16,6 +19,9 @@
 
     h1 {
         text-align: center;
+        font-size: 9em;
+        margin: 0 auto;
+        padding-bottom: 50px;
     }
 
     nav {
@@ -35,17 +41,18 @@
 
     li {
         background-color: lightgray;
-        padding: 20px 0;
+        padding: 25px 0;
         margin-left: 30px;
         margin-right: 30px;
     }
 
 
     .header-img {
-        display: flex;
+        /*display: flex;*/
         /*justify-content: center;*/
-        content:url(https://via.placeholder.com/339x224)
-
+        content: url(https://via.placeholder.com/339x224);
+        margin: 0 auto;
+        width: calc(100% - 60px);
 
     }
 
